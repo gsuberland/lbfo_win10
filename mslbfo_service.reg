@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MsLbfoProvider]
+"Description"="@%SystemRoot%\\System32\\drivers\\MsLbfoProvider.sys,-501"
+"DisplayName"="@%SystemRoot%\\System32\\drivers\\MsLbfoProvider.sys,-501"
+"ErrorControl"=dword:00000001
+"Group"="NDIS"
+"ImagePath"=hex(2):53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,64,00,\
+  72,00,69,00,76,00,65,00,72,00,73,00,5c,00,4d,00,73,00,4c,00,62,00,66,00,6f,\
+  00,50,00,72,00,6f,00,76,00,69,00,64,00,65,00,72,00,2e,00,73,00,79,00,73,00,\
+  00,00
+"Start"=dword:00000003
+"Type"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MsLbfoProvider\Parameters]
+

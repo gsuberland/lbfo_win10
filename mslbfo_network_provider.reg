@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Network\{4d36e974-e325-11ce-bfc1-08002be10318}\{FC66A602-B769-4666-A540-CA3DF0E7DF2C}]
+"InstallTimeStamp"=hex:e4,07,05,00,01,00,12,00,12,00,1a,00,31,00,80,03
+"Characteristics"=dword:00040000
+"ComponentId"="ms_lbfo"
+"Description"="@mslbfoprovider.inf,%lbfo_desc%;Microsoft Load Balancing/Failover Provider"
+"InfPath"="mslbfoprovider.inf"
+"InfSection"="Install"
+"LocDescription"="@mslbfoprovider.inf,%lbfo_desc%;Microsoft Load Balancing/Failover Provider"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Network\{4d36e974-e325-11ce-bfc1-08002be10318}\{FC66A602-B769-4666-A540-CA3DF0E7DF2C}\Ndi]
+"TimeStamp"=hex:e4,07,05,00,01,00,12,00,12,00,1a,00,31,00,80,03
+"HelpText"="@%SystemRoot%\\System32\\drivers\\MsLbfoProvider.sys,-500"
+"Service"="MsLbfoProvider"
+"CoServices"=hex(7):4d,00,73,00,4c,00,62,00,66,00,6f,00,50,00,72,00,6f,00,76,\
+  00,69,00,64,00,65,00,72,00,00,00,00,00
+"FilterClass"="ms_implatform"
+"FilterType"=dword:00000002
+"FilterRunType"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Network\{4d36e974-e325-11ce-bfc1-08002be10318}\{FC66A602-B769-4666-A540-CA3DF0E7DF2C}\Ndi\Interfaces]
+"LowerRange"="nolower"
+"UpperRange"="noupper"
+"FilterMediaTypes"="ms_implatform"
+
